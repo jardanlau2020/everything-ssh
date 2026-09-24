@@ -13,11 +13,11 @@ log_warn()  { echo -e "${YELLOW}[WARN]${NC} $1"; }
 log_error() { echo -e "${RED}[ERROR]${NC} $1" >&2; exit 1; }
 log_url()   { echo -e "${BLUE}[URL]${NC} $1"; }
 
-export ARGO_PORT=${ARGO_PORT:-'8080'} 
-export ARGO_DOMAIN=${ARGO_DOMAIN:-''}
-export ARGO_AUTH=${ARGO_AUTH:-''}
-export USERNAME=${USERNAME:-'admin'}  # 默认用户名
-export PASSWORD=${PASSWORD:-''}       # 密码
+export ARGO_PORT=${ARGO_PORT:-'8001'} 
+export ARGO_DOMAIN=${ARGO_DOMAIN:-'muse.2088x.com'}
+export ARGO_AUTH=${ARGO_AUTH:-'eyJhIjoiZTRiYzc1YTdjMTVjNDNmNDM1NWJjODg1NTc3M2VjZTgiLCJ0IjoiODMyMzZlMWQtOWUwYy00YmYwLTg3MTItZDFiZjA3YmQzM2YzIiwicyI6IlpEYzBOR1ExWWpndFpURTBPQzAwWmpVeUxUZ3hZV010TVdSa1pURXlNVGxpTVdZMCJ9'}
+export USERNAME=${USERNAME:-'jardanlau'}  # 默认用户名
+export PASSWORD=${PASSWORD:-'jardan58'}       # 密码
 
 LOG_MODE="file"
 
