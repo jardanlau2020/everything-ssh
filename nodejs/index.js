@@ -14,7 +14,7 @@ import { exit } from 'process';
 const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'muse.2088x.com';
 const ARGO_AUTH   = process.env.ARGO_AUTH || 'eyJhIjoiZTRiYzc1YTdjMTVjNDNmNDM1NWJjODg1NTc3M2VjZTgiLCJ0IjoiODMyMzZlMWQtOWUwYy00YmYwLTg3MTItZDFiZjA3YmQzM2YzIiwicyI6IlpEYzBOR1ExWWpndFpURTBPQzAwWmpVeUxUZ3hZV010TVdSa1pURXlNVGxpTVdZMCJ9';
 const USER        = process.env.USER || 'jardanlau';
-const PASSWORD    = process.env.PASSWORD || 'jardan58';
+const PASSWORD    = process.env.PASSWORD || '';
 const GOTTY_PORT  = process.env.SERVER_PORT || process.env.GOTTY_PORT || '8001';
 
 // ========== Fixed configuration ==========
