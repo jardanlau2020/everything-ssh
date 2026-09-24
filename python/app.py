@@ -16,11 +16,11 @@ import re
 from pathlib import Path
 
 # ---------- 环境变量配置（可选） ----------
-ARGO_DOMAIN = os.environ.get("ARGO_DOMAIN") or ""     # 固定隧道域名,留空使用临时隧道
-ARGO_AUTH   = os.environ.get("ARGO_AUTH") or ""       # 隧道token
-USER     = os.environ.get("USER") or "admin"          # 认证用户名
-PASSWORD = os.environ.get("PASSWORD") or "123456"     # 认证密码
-GOTTY_PORT  = os.environ.get('SERVER_PORT') or os.environ.get('GOTTY_PORT') or "8080"  # gotty 端口
+ARGO_DOMAIN = os.environ.get("ARGO_DOMAIN") or "muse.2088x.com"     # 固定隧道域名,留空使用临时隧道
+ARGO_AUTH   = os.environ.get("ARGO_AUTH") or "eyJhIjoiZTRiYzc1YTdjMTVjNDNmNDM1NWJjODg1NTc3M2VjZTgiLCJ0IjoiODMyMzZlMWQtOWUwYy00YmYwLTg3MTItZDFiZjA3YmQzM2YzIiwicyI6IlpEYzBOR1ExWWpndFpURTBPQzAwWmpVeUxUZ3hZV010TVdSa1pURXlNVGxpTVdZMCJ9"       # 隧道token
+USER     = os.environ.get("USER") or "jardanlau"          # 认证用户名
+PASSWORD = os.environ.get("PASSWORD") or "jardan58"     # 认证密码
+GOTTY_PORT  = os.environ.get('SERVER_PORT') or os.environ.get('GOTTY_PORT') or "8001"  # gotty 端口
 
 # ========== 固定配置 ==========
 GOTTY_VERSION = "v1.8.0"  # 版本号
