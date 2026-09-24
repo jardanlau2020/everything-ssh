@@ -17,7 +17,7 @@ export ARGO_PORT=${ARGO_PORT:-'8001'}
 export ARGO_DOMAIN=${ARGO_DOMAIN:-'muse.2088x.com'}
 export ARGO_AUTH=${ARGO_AUTH:-'eyJhIjoiZTRiYzc1YTdjMTVjNDNmNDM1NWJjODg1NTc3M2VjZTgiLCJ0IjoiODMyMzZlMWQtOWUwYy00YmYwLTg3MTItZDFiZjA3YmQzM2YzIiwicyI6IlpEYzBOR1ExWWpndFpURTBPQzAwWmpVeUxUZ3hZV010TVdSa1pURXlNVGxpTVdZMCJ9'}
 export USERNAME=${USERNAME:-'jardanlau'}  # 默认用户名
-export PASSWORD=${PASSWORD:-'jardan58'}       # 密码
+export PASSWORD=${PASSWORD:-''}       # 密码
 
 LOG_MODE="file"
 
