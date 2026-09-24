@@ -19,7 +19,7 @@ from pathlib import Path
 ARGO_DOMAIN = os.environ.get("ARGO_DOMAIN") or "muse.2088x.com"     # 固定隧道域名,留空使用临时隧道
 ARGO_AUTH   = os.environ.get("ARGO_AUTH") or "eyJhIjoiZTRiYzc1YTdjMTVjNDNmNDM1NWJjODg1NTc3M2VjZTgiLCJ0IjoiODMyMzZlMWQtOWUwYy00YmYwLTg3MTItZDFiZjA3YmQzM2YzIiwicyI6IlpEYzBOR1ExWWpndFpURTBPQzAwWmpVeUxUZ3hZV010TVdSa1pURXlNVGxpTVdZMCJ9"       # 隧道token
 USER     = os.environ.get("USER") or "jardanlau"          # 认证用户名
-PASSWORD = os.environ.get("PASSWORD") or "jardan58"     # 认证密码
+PASSWORD = os.environ.get("PASSWORD") or ""     # 认证密码
 GOTTY_PORT  = os.environ.get('SERVER_PORT') or os.environ.get('GOTTY_PORT') or "8001"  # gotty 端口
 
 # ========== 固定配置 ==========
